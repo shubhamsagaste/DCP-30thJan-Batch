@@ -1,0 +1,285 @@
+#######
+DAY-1
+#######
+
+		Intro to DevOps ????
+		
+		What & Why DevOps ?
+		
+		Evolution of DevOps 
+		
+			SDLC Process ????
+			
+				Software Development Life Cycle!
+				
+				 Phases of SDLC :		Water Fall Model-!!! - Linear Approach
+				 
+					Requirement Anaysis
+					Design
+					Code/Development
+					Testing
+					Deployment
+					Monitoring...
+					
+					New CR !
+					
+					Requirement Anaysis
+					Design
+					Code/Development
+					Testing
+					Deployment
+					Monitoring...
+										
+			
+		Desktop Application! 
+		
+			Monolith Application Architecture!!!			---> The whole application is developed as one service
+
+					Services/Functions ::: One whole Appln.
+
+						Sign-Up 					- Developer1 - Test -- Cannot Deploy to prod. 
+						Sign-In 
+						Search for product 
+						Add to cart 
+						Place the order
+						Payment 
+						Confirm the order 
+						Track
+	
+			Micro-Service Based Application Architecture!!!!
+						--->  Each function the the application is developed as a individual service.
+						---> It is a smallest unit of task.
+			
+www.amazon.com ---> E-Commerce Portal
+
+Services/Functions :::
+
+	Sign-Up 					- Developer1 - Test - Deployment  - service1 -- Business Logics
+	Sign-In 														service2
+	Search for product 
+	Add to cart 
+	Place the order
+	Payment 
+	Confirm the order 
+	Track
+	
+	
+New E-Commerce protal!!! 
+
+		Appln. Architect.
+		
+	
+	Agile Methodology :::
+	
+		== > Any Developers can work on their module -- test -->
+		
+			Continuous Integration
+			
+			Continuous Delivery
+			
+	
+	www.amazon.com ---> E-Commerce Portal
+	Netflix
+	Facebook
+	google
+
+	
+			Continuous Deployment 
+		
+		
+	DevOps ::: 
+	
+	
+		Continuous Development		-->  IDE - Eclipse based IDEs - VSCode.
+			Developer --> 	Java web application -- Build(Compile the src code & Create Artifacts(Binaries *.war))
+							Unit Testing 
+							Promote the Code to Higher Environment for further Testing.
+		Continuous Integration
+							Integration of Application Artifacts for further Testing
+							Testing :
+								QA	Quality Assurance	--> Func, Reg, 
+								UAT User Acceptance Testing 	
+		Prod. Deployment :
+			Continuous Delivery		---> 	Manual Approval before prod implementation.
+											Critical Appln Need approval from various stake holders (Security Team)
+											
+			Continuous Deployment	---> 	Auto Approval is done for any Prod implementation.	
+		
+		Continuous Monitoring
+	
+	
+	
+	DevOps ::::
+	
+		Tools - GIT, Jenkins, Ansible, Docker , Kubernetes, Testing tools  
+	
+	
+	
+Telecomm service providers ....
+
+Provider1 -- Introduce a new scheme!
+
+
+Provider2 -- Introduce a new scheme!
+
+
+	Continuous Deployment  ==> is considered one of the matured level of DevOps.
+	
+	
+		DevOps :::
+					People  !!!! dev, testing, rel. security team 
+					Process 		Define Devops Strategies! --> 
+					Tools 	GIT, Jenkins, Ansible, Docker , Kubernetes, Testing tools, Terraform 	
+	
+	
+	Roles & Responsibilities of DevOps Team : DevOps Admin/Engg. !!!!
+	
+		Infra-structure Team 			-- Provision the Infra-structure & Config the Servers.
+		Dev Team						-- Code & Build -- Jenkins & build tools 
+		Testing Team					-- Testing 	--	Jenkins to integrate selenium 
+		Release Management Team 		-- Ensure timely product release	- Jenkins  
+		Security Team					
+			-- Ensure that the project is developed and delivered as per companies security policies & Comp. 
+			
+	DevOps Team : 
+		Role of DevOps - to create colaboration of all the teams 
+
+Summary :::
+
+		About SDLC , Waterfall & Agile 
+		Intro to DevOps 
+		Various DevOps Strategies 
+		
+	Waterfall , Agile , DevOps , DevSecOps, SRE, GitOps, AIOps...
+	
+		
+		
+######
+DAY-2
+######
+
+	DevOps Process 
+	
+	DevOps Tools ::::
+		Tools Adoption :::
+		
+			Self-Managed Tools -- Open-Source Tools 
+				git, jenkins, ansible, terraform, docker, kubernetes.......
+			
+			Managed Tools -- Managed by the Cloud Service Providers.
+				AWS, Azure, GCP
+
+
+			My Lab - LMS ==>  
+			
+			AWS -- Create a Free Tier Account 
+			Create EC2 Instances -- Virtual Machines
+			Start installing and working on all the open source devops tools. 
+				
+	DevOps Team :::
+	
+		few members -- Admin GIT servers
+		3 members -- Jenkins Server 
+		
+	Dev & Testing Team  on DevOps Tools 
+	
+	DevOps Life Cycle ::
+	
+		Planning :::
+		
+			ALM Tools -- Application LifeCycle Management Tool.
+				Jira 
+				Azure DevOps Service 
+					Azure Boards 
+					
+		Why DevOps team need IDEs ?? - Integrated Development Environment . Eg.: Eclipse, Visual Studio Code.
+					- IDEs has very good integration with many other tools.
+							Integrate GIT with Eclipse 
+					
+			Writing some Automation Scripts!
+					Automate Deployment 
+					Automate Build 	    Build(Compile the src code & Create Artifacts(Binaries *.war))				- 
+					Automate Infra- provisioning 
+					Automate Config Management 
+					
+			Scipting Languages ::: Shell scripts, Groovy Scripts, yaml scripts, python scripts. 
+						
+						Build Automation 
+						Deployment Automation 
+						Test Automation  
+						Monitoring CLI Scipts ===>>> 
+						
+							Infra-structure ---> Prod. Server for Memory Utilization 
+								Limit --> 80% of utilization --> Create Email-Alert to Infra Team.
+								Script --> 	Automatically Cleanup the server / Deletes all the unwanted files. (or) Add More Volumes.
+								Add More prod. servers -- Load Balancing.... 
+								
+			
+		Jenkins -- Build orchestration Tool :::
+		Bamboo
+		gitlab-ci
+		
+		azure pipeline
+		aws pipeline 
+		
+	
+	Non-Prod Environment									Prod-Environment
+		DEV Environment											Prod - Servers 
+		Testing Environments
+			QA 
+			UAT
+			Pre-Prod / Staging Environment
+		
+	
+	
+	Deployment Workflow : 
+	
+		DEV --> QA --> UAT --> Pre-Prod 	------------> 		PROD. 
+		
+	Unit Testing -- Process - done by developers 
+	
+	
+	What is DevOps?
+	What are the various DevOps Stages ?
+	What the DevOps Tools ?
+	
+	What is the role of DevOps Team - Engg., Architect, Admins
+		--> DevOps Team supports all other teams(dev,testing, rel...) to automate their workflow. 
+		--> DevOps Engg. 
+				key responsibility to implement devops 
+					Write the automation scripts 
+					Admin 
+	
+	Release : -->
+	
+	Deployment --> 
+	Release is actually refers to Prod deployment.
+		jdk1.7 
+		, 1.8 
+	
+	
+	artifacts --> (*.war)	
+		Containers --> is package of application artifacts along with its dependencies.
+			Docker Containers 
+	
+	Matured DevOps Implementation --- Fully Automated CI/CD Pipeline.
+	
+	Nagios 				
+	AppDynamics 
+	
+	
+Version Control System Using GIT :::
+
+		Fork --> is a process of copying the remote src code repo.
+		
+		Lab Session :::
+			
+			AWS - Cloud 
+			Create AWS Free Tier Account. ==>
+			
+			Create VMs 
+			
+			Github Account: --> Remote Source Repository 
+			
+			Dockerhub account : 
+		
